@@ -20,7 +20,7 @@ ArrayList = find_class("java.util.ArrayList")
 class FakeStarsPlugin(BasePlugin):
     SETTINGS_INFINITE = "infinite_mode"
     SETTINGS_BALANCE = "balance"
-    DEFAULT_BALANCE = 500
+    DEFAULT_BALANCE = 254
     
     def __init__(self):
         super().__init__()
